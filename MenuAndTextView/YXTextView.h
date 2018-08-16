@@ -10,6 +10,6 @@
 
 @interface YXTextView : UITextView
 
-@property (nonatomic, assign) BOOL isShowMenu;
+@property (nonatomic, strong) UIResponder *myNextResponder;
 
 @end

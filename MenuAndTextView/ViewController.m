@@ -73,7 +73,7 @@
 {
     //还原menu
     [[UIMenuController sharedMenuController] setMenuItems:@[]];
-    self.myTextView.isShowMenu = NO;
+    self.myTextView.myNextResponder = nil;
 
 }
 
@@ -86,7 +86,8 @@
         
         if ([self.myTextView isFirstResponder])
         {
-            self.myTextView.isShowMenu = YES;
+            //如果myTextView是第一响应，修改响应链
+            self.myTextView.myNextResponder = view;
         }
         else
         {
