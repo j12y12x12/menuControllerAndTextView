@@ -10,4 +10,6 @@
 
 @interface YXTextView : UITextView
 
+@property (nonatomic, strong) UIResponder *myNextResponder;
+
 @end

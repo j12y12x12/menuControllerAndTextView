@@ -10,12 +10,34 @@
 
 @implementation YXTextView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+
+#pragma mark - 拦截传递，重写父类方法
+- (UIResponder *)nextResponder
+{
+    if (self.myNextResponder)
+    {
+        return self.myNextResponder;
+    }
+    else
+    {
+        return super.nextResponder;
+    }
+    
 }
-*/
+
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender
+{
+    //拦截menu菜单
+    if (self.myNextResponder)
+    {
+        return NO;
+    }
+    else
+    {
+        return [super canPerformAction:action withSender:sender];
+    }
+    
+}
+
 
 @end
