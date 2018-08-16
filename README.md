@@ -1,2 +1,4 @@
 # menuControllerAndTextView
-1.menu菜单显示时不隐藏键盘；2.textView为第一响应者时，menu菜单显示粘贴，选择等textView自带菜单
+开发的时候会遇到这样的问题，menu菜单显示时，textView必现要移除响应，如果不移除，menu菜单会显示textView的系统menu。
+本demo实现了键盘与menu菜单共存，并且移除掉了系统的menu。
+
