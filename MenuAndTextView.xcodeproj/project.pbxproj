@@ -16,6 +16,9 @@
 		91AEEDE821251A6B00BA7262 /* MenuAndTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AEEDE721251A6B00BA7262 /* MenuAndTextViewTests.m */; };
 		91AEEDF321251A6B00BA7262 /* MenuAndTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AEEDF221251A6B00BA7262 /* MenuAndTextViewUITests.m */; };
 		91AEEE0221251AA400BA7262 /* YXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AEEE0121251AA400BA7262 /* YXTextView.m */; };
+		91AEEE0921252ED200BA7262 /* keyBoardBefore.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AEEE0621252ED200BA7262 /* keyBoardBefore.png */; };
+		91AEEE0A21252ED200BA7262 /* noKeyBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AEEE0721252ED200BA7262 /* noKeyBoard.png */; };
+		91AEEE0B21252ED200BA7262 /* keyBoardAfter.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AEEE0821252ED200BA7262 /* keyBoardAfter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		91AEEDF421251A6B00BA7262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91AEEE0021251AA400BA7262 /* YXTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXTextView.h; sourceTree = "<group>"; };
 		91AEEE0121251AA400BA7262 /* YXTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTextView.m; sourceTree = "<group>"; };
+		91AEEE0621252ED200BA7262 /* keyBoardBefore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyBoardBefore.png; sourceTree = "<group>"; };
+		91AEEE0721252ED200BA7262 /* noKeyBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noKeyBoard.png; sourceTree = "<group>"; };
+		91AEEE0821252ED200BA7262 /* keyBoardAfter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyBoardAfter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 		91AEEDC221251A6900BA7262 = {
 			isa = PBXGroup;
 			children = (
+				91AEEE0621252ED200BA7262 /* keyBoardBefore.png */,
+				91AEEE0721252ED200BA7262 /* noKeyBoard.png */,
+				91AEEE0821252ED200BA7262 /* keyBoardAfter.png */,
 				91AEEDCD21251A6900BA7262 /* MenuAndTextView */,
 				91AEEDE621251A6B00BA7262 /* MenuAndTextViewTests */,
 				91AEEDF121251A6B00BA7262 /* MenuAndTextViewUITests */,
@@ -241,8 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				91AEEDDB21251A6A00BA7262 /* LaunchScreen.storyboard in Resources */,
+				91AEEE0B21252ED200BA7262 /* keyBoardAfter.png in Resources */,
 				91AEEDD821251A6A00BA7262 /* Assets.xcassets in Resources */,
+				91AEEE0921252ED200BA7262 /* keyBoardBefore.png in Resources */,
 				91AEEDD621251A6900BA7262 /* Main.storyboard in Resources */,
+				91AEEE0A21252ED200BA7262 /* noKeyBoard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
